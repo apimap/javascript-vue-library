@@ -28,8 +28,7 @@ jobs:
           do
               echo "Build and Publish $i"
               npm --prefix=$i/ install
-              npm install publish-if-not-exists
               npm --prefix=$i/ run build
-              npx publish-if-not-exists $i/
+              npm publish $i/ --force
           done
         shell: bash
