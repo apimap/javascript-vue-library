@@ -29,7 +29,7 @@ jobs:
               echo "Build and Publish $i"
               npm --prefix=$i/ install
               npm --prefix=$i/ run build
-              npm publish $i/
+              npm publish $i/ || true
           done
         continue-on-error: true
         shell: bash
