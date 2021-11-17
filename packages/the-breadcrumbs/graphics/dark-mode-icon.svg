@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="25"
+   height="25"
+   viewBox="0 0 6.6145832 6.6145835"
+   version="1.1"
+   id="svg1575"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="dark-mode-icon.svg">
+  <defs
+     id="defs1569" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="12.831156"
+     inkscape:cx="10.034507"
+     inkscape:cy="15.504059"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1439"
+     inkscape:window-height="1107"
+     inkscape:window-x="1305"
+     inkscape:window-y="500"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1572">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path17871"
+       style="display:inline;fill:#01acfb;fill-opacity:1;stroke:none;stroke-width:0.316434;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 3.4445718,1.2161563 C 2.1698861,1.2683685 1.1750217,2.7003792 1.598965,3.9115857 1.8967174,4.8952385 2.978831,5.6008662 4.0002529,5.3600577 4.4137333,5.2799831 4.8076558,5.0800546 5.0998916,4.774404 3.7545197,4.6697495 2.7229547,3.1700623 3.1431609,1.8780494 3.2082904,1.6435713 3.3079319,1.4178929 3.4445718,1.2161563 Z" />
+  </g>
+</svg>

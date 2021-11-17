@@ -1,0 +1,49 @@
+{
+  "name": "@apimap/frontend-tscrollbutton",
+  "version": "1.0.0",
+  "main": "dist/tscrollbutton.common.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepublishOnly": "node ../../snapshotversion.js frontend-scroll-button",
+    "build": "VUE_CLI_SERVICE_CONFIG_PATH=../../vue.config.js vue-cli-service build --target lib --name tscrollbutton index.js"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apimap/javascript-vue-library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile" : false
+    },
+    "rules": {}
+  },
+  "peerDependencies": {
+    "vue": "2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.15",
+    "@vue/cli-plugin-eslint": "5.0.0-rc.0",
+    "@vue/cli-service": "4.5.15",
+    "@babel/eslint-parser": "7.16.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-vue": "8.0.3",
+    "vue": "2.6.14",
+    "vue-template-compiler": "2.6.14",
+    "vue-svg-loader": "0.16.0"
+  }
+}
