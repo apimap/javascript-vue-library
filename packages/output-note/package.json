@@ -30,7 +30,9 @@
       "parser": "@babel/eslint-parser",
       "requireConfigFile" : false
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
   },
   "peerDependencies": {
     "vue": "2.6.14"
