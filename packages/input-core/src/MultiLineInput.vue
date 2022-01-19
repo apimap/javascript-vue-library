@@ -37,18 +37,14 @@ export default {
   padding: 1em;
   border-radius: 0.2em;
   margin-top: 0.1em;
+  border: 1px solid #dbd8e3;
+  color: #5c5470;
 }
 
 .multiline-input {
   display: flex;
   flex-direction: column;
   text-align: left;
-}
-
-.heading {
-  font-size: 2em;
-  font-weight: 500;
-  padding-bottom: 0.2em;
 }
 
 .multiline-input > textarea {

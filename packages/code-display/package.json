@@ -1,6 +1,6 @@
 {
   "name": "@apimap/code-display",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "dist/code-display.common.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -28,7 +28,7 @@
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser",
-      "requireConfigFile" : false
+      "requireConfigFile": false
     },
     "rules": {}
   },

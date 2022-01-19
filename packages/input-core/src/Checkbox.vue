@@ -1,6 +1,6 @@
 <template>
   <label class="checkbox-container" :for="option">
-    {{ label }}
+    <div class="title">{{ label }}</div>
     <input
       type="checkbox"
       class="checkbox"
@@ -56,6 +56,11 @@ export default {
 };
 </script>
 <style scoped>
+
+.title {
+  color: #5c5470;
+}
+
 .description {
   margin-top: 0.4em;
   font-size: 0.8em;
@@ -64,6 +69,7 @@ export default {
   font-family: inherit;
   line-height: 1.2em;
   padding: 0.8em;
+  border: 1px solid #dbd8e3;
 }
 
 .checkbox-container {
@@ -78,6 +84,14 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.checkbox-container > .checkmark {
+  border: 2px solid #5c5470;
+}
+
+.checkbox-container .checkmark:after {
+  border: solid #5c5470;
 }
 
 .checkbox-container input {

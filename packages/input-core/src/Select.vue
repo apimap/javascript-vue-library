@@ -90,6 +90,8 @@ export default {
   padding: 1em;
   border-radius: 0.2em;
   margin-top: 0.1em;
+  border: 1px solid #dbd8e3;
+  color: #5c5470;
 }
 
 .select {

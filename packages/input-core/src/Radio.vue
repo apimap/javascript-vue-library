@@ -56,7 +56,10 @@ export default {
 <style scoped>
 
 .radio-description {
-  font-size: 0.8em;
+  padding: 0.6em;
+  border-radius: 0.2em;
+  margin-top: 0.1em;
+  border: 1px solid #dbd8e3;
 }
 
 .radio-container {
@@ -65,7 +68,6 @@ export default {
   padding-left: 50px;
   margin-top: 40px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -107,6 +109,6 @@ export default {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #19aaf8;
+  background: #5c5470;
 }
 </style>

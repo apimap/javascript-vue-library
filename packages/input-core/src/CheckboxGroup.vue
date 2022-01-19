@@ -21,8 +21,9 @@ export default {
 };
 </script>
 <style scoped>
+
 .heading {
-  font-weight: 500;
+  line-height: 1.2em;
 }
 
 .normal {

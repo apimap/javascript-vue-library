@@ -22,11 +22,11 @@ export default {
 }
 
 .horizontal-large-small-stack-layout > div {
-  width: 45em;
+  width: 44em;
 }
 
 .horizontal-large-small-stack-layout > div:last-child {
-  width: 14em;
+  width: 15em;
   margin: 1em;
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="content-section">
-    <h3 v-show="title"> {{ title }}</h3>
+    <h2 v-show="title"> {{ title }}</h2>
     <slot></slot>
   </div>
 </template>

@@ -14,10 +14,10 @@ export default {
 .vertical-stack-layout {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   padding-bottom: 1em;
+  align-items: stretch;
 }
 </style>

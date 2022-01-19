@@ -81,6 +81,7 @@ export default {
   text-align: left;
   margin-bottom: 2em;
   margin-top: 2em;
+  padding-top: 2em;
 }
 
 .radio-container {
@@ -89,7 +90,6 @@ export default {
   padding-left: 2em;
   margin-top: 1.4em;
   cursor: pointer;
-  font-size: 1.4em;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -131,7 +131,7 @@ export default {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #19aaf8;
+  background: #5c5470;
 }
 
 .optional-input {
