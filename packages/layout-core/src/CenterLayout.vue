@@ -8,13 +8,23 @@
 export default {
   name: "CenterLayout",
   props: {
-    width: Number,
-    fullscreen: Boolean
+    width: String,
+    fullscreen: Boolean,
+    offset: {
+      type: Boolean,
+      default: false
+    }
   },
   computed: {
     style () {
-      if(this.fullscreen) return 'width: 100%';
-      return 'width:' + this.width  + 'em';
+      let returnValue = "";
+
+      if (this.fullscreen){ returnValue = 'width: 100%;';
+      } else { returnValue = 'width:' + this.width + ';' }
+
+      if(this.offset){ returnValue += "margin-left: max(400px, 30%);" }
+
+      return returnValue;
     }
   }
 };
@@ -24,7 +34,6 @@ export default {
 
 .center-layout {
   margin: auto;
-  margin-left: max(400px, 30%);
   line-height: 1.2em;
   align-items: stretch;
 }

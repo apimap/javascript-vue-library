@@ -6,8 +6,10 @@
           <li
               v-for="(breadcrumb, idx) in breadcrumbList"
               :key="idx"
+              @click="goToBreadcrumb(idx)"
+              class="link"
           >
-            <a href="#" @click="goToBreadcrumb(idx)">{{ breadcrumb.name }}</a>
+            {{ breadcrumb.name }}
           </li>
         </ul>
       </div>
@@ -49,6 +51,10 @@ export default {
 </script>
 
 <style scoped>
+
+.link {
+  cursor: pointer;
+}
 
 .breadcrumbs {
   width: 100%;

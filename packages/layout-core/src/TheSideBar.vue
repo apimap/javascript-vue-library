@@ -31,8 +31,12 @@ export default {
   left: 0;
   height: 100vh;
   z-index: 1;
-  overflow: scroll;
+  overflow: hidden;
   padding-top: 2em;
+}
+
+.the-side-bar:hover {
+  overflow-y: scroll;
 }
 
 </style>

@@ -13,7 +13,7 @@ export default {
   name: "SideBarAction",
   props: {
     target: String,
-    image: Object
+    image: String
   }
 };
 </script>

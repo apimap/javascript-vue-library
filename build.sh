@@ -16,7 +16,7 @@ done
 packages=($(ls -d packages/*))
 for i in "${packages[@]}"
 do
-    echo "Build and Publish $i"
+    echo "Build $i"
     npm --prefix=$i/ install
     npm --prefix=$i/ run build
 done

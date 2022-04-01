@@ -53,7 +53,7 @@ export default {
 }
 
 .copy-button:hover {
-  cursor: pointer;
+  cursor: copy;
   background-color: #5c5470;
   color: #dbd8e3;
 }
