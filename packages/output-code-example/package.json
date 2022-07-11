@@ -1,6 +1,6 @@
 {
   "name": "@apimap/output-code-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/output-code-example.common.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -33,17 +33,17 @@
     "rules": {}
   },
   "peerDependencies": {
-    "vue": "2.6.14"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.5.15",
-    "@vue/cli-plugin-eslint": "5.0.0-rc.0",
-    "@vue/cli-service": "4.5.15",
-    "@babel/eslint-parser": "7.16.3",
-    "eslint": "7.32.0",
-    "eslint-plugin-vue": "8.0.3",
-    "vue": "2.6.14",
-    "vue-template-compiler": "2.6.14",
-    "vue-svg-loader": "0.16.0"
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^5.0.0-rc.0",
+    "@vue/cli-service": "^4.5.15",
+    "@babel/eslint-parser": "^7.16.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue-svg-loader": "^0.16.0"
   }
 }

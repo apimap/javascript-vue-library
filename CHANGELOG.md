@@ -1,6 +1,9 @@
 Changelog
 ===
 
+### 11.07.2022
+- Updated dep. to allow never versions
+
 ### 01.04.2022
 - The-breadcrumbs: removed used of a href
 - layout-core: Scrollbar only on hover, fixed vue warnings, center layout height and width args
