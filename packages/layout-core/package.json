@@ -1,6 +1,6 @@
 {
   "name": "@apimap/layout-core",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "dist/layout-core.common.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -36,17 +36,17 @@
     }
   },
   "peerDependencies": {
-    "vue": "^2.6.14"
+    "vue": "^2.7.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.15",
-    "@vue/cli-plugin-eslint": "^5.0.0-rc.0",
-    "@vue/cli-service": "^4.5.15",
-    "@babel/eslint-parser": "^7.16.3",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vue": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.0.3",
+    "vue": "^2.7.4",
+    "vue-template-compiler": "^2.7.4",
     "vue-svg-loader": "^0.16.0"
   }
 }
