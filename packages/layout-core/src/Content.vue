@@ -4,7 +4,10 @@
     <slot/>
   </div>
 </template>
+
 <script>
+/* eslint-disable */
+
 export default {
   name: "Content",
   props: {
@@ -12,6 +15,7 @@ export default {
   }
 };
 </script>
+
 <style scoped>
 
 .content {

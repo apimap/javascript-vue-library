@@ -42,6 +42,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+
 import Input from "@/Input";
 import Option from "@/Option";
 

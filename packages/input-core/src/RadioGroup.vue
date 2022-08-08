@@ -31,7 +31,10 @@
     />
   </div>
 </template>
+
 <script>
+/* eslint-disable */
+
 import Radio from "@/Radio";
 import Input from "@/Input";
 

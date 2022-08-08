@@ -15,7 +15,10 @@
     <div v-if="description" class="description">{{ description }}</div>
   </div>
 </template>
+
 <script>
+/* eslint-disable */
+
 export default {
   name: "Input",
   props: { label: String, size: String, placeholder: String, description: String },
@@ -31,6 +34,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .description{
   padding: 1em;
