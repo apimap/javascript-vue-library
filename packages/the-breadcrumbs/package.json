@@ -4,7 +4,7 @@
   "main": "dist/the-breadcrumbs.common.js",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "node ../snapshotversion.js the-breadcrumbs",
+    "prepublishOnly": "node ../../snapshotversion.js the-breadcrumbs",
     "build": "vue-cli-service build --target lib --mode production --name the-breadcrumbs index.js"
   },
   "sideEffects": false,
