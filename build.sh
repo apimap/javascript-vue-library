@@ -25,10 +25,11 @@ if [ -z "$target" ]
 then
   echo "No LIBs copied"
 else
-  cp packages/code-display/dist ${target}/node_modules/@apimap/code-display/ -r
-  cp packages/command-line/dist ${target}/node_modules/@apimap/command-line/ -r
-  cp packages/input-core/dist ${target}/node_modules/@apimap/input-core/ -r
-  cp packages/layout-core/dist ${target}/node_modules/@apimap/layout-core/ -r
-  cp packages/output-note/dist ${target}/node_modules/@apimap/output-note/ -r
-  cp packages/the-breadcrumbs/dist ${target}/node_modules/@apimap/the-breadcrumbs/ -r
+  echo "Target ${target}"
+  cp -R packages/code-display/dist ${target}/node_modules/@apimap/code-display/
+  cp -R packages/command-line/dist ${target}/node_modules/@apimap/command-line/
+  cp -R packages/input-core/dist ${target}/node_modules/@apimap/input-core/
+  cp -R packages/layout-core/dist ${target}/node_modules/@apimap/layout-core/
+  cp -R packages/output-note/dist ${target}/node_modules/@apimap/output-note/
+  cp -R packages/the-breadcrumbs/dist ${target}/node_modules/@apimap/the-breadcrumbs/
 fi

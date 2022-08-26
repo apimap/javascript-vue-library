@@ -1,11 +1,11 @@
 {
   "name": "@apimap/output-code-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/output-code-example.common.js",
   "license": "Apache-2.0",
   "scripts": {
     "prepublishOnly": "node ../../snapshotversion.js output-code-example",
-    "build": "VUE_CLI_SERVICE_CONFIG_PATH=../vue.config.js vue-cli-service build --target lib --mode production --name output-code-example index.js"
+    "build": "vue-cli-service build --target lib --mode production --name output-code-example index.js"
   },
   "files": [
     "dist/*"
@@ -17,6 +17,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "sideEffects": false,
   "eslintConfig": {
     "root": true,
     "env": {

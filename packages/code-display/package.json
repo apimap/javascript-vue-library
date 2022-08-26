@@ -1,15 +1,16 @@
 {
   "name": "@apimap/code-display",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "dist/code-display.common.js",
   "license": "Apache-2.0",
   "scripts": {
     "prepublishOnly": "node ../../snapshotversion.js frontend-code-display",
-    "build": "VUE_CLI_SERVICE_CONFIG_PATH=../vue.config.js vue-cli-service build --target lib --mode production --name code-display index.js"
+    "build": "vue-cli-service build --target lib --mode production --name code-display index.js"
   },
   "files": [
     "dist/*"
   ],
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/apimap/javascript-vue-library.git"

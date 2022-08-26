@@ -1,12 +1,13 @@
 {
   "name": "@apimap/output-note",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "dist/output-note.common.js",
   "license": "Apache-2.0",
   "scripts": {
     "prepublishOnly": "node ../../snapshotversion.js output-note",
-    "build": "VUE_CLI_SERVICE_CONFIG_PATH=../vue.config.js vue-cli-service build --target lib --mode production --name output-note index.js"
+    "build": "vue-cli-service build --target lib --mode production --name output-note index.js"
   },
+  "sideEffects": false,
   "files": [
     "dist/*"
   ],

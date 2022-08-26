@@ -1,12 +1,13 @@
 {
   "name": "@apimap/the-breadcrumbs",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "dist/the-breadcrumbs.common.js",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "node ../../snapshotversion.js the-breadcrumbs",
-    "build": "VUE_CLI_SERVICE_CONFIG_PATH=../vue.config.js vue-cli-service build --mode production --target lib --name the-breadcrumbs index.js"
+    "prepublishOnly": "node ../snapshotversion.js the-breadcrumbs",
+    "build": "vue-cli-service build --target lib --mode production --name the-breadcrumbs index.js"
   },
+  "sideEffects": false,
   "files": [
     "dist/*"
   ],

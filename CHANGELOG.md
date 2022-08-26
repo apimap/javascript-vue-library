@@ -1,6 +1,10 @@
 Changelog
 ===
 
+### 26.08.2022
+- Fixed vue 2.7 config bug
+- Fixed CenterLayout position bug
+
 ### 11.07.2022
 - Updated dep. to allow never versions
 
