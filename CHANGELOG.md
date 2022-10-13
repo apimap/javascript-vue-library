@@ -1,6 +1,9 @@
 Changelog
 ===
 
+### 10.10.2022
+- Fixed left margin alignment
+
 ### 26.08.2022
 - Fixed vue 2.7 config bug
 - Fixed CenterLayout position bug

@@ -22,7 +22,7 @@ export default {
       if (this.fullscreen){ returnValue = 'width: 100%;';
       } else { returnValue = 'width:' + this.width + ';' }
 
-      if(this.offset){ returnValue += "margin-left: max(200px, 20%);" }
+      if(this.offset){ returnValue += "margin-left: max(260px, 28%);" }
 
       return returnValue;
     }
