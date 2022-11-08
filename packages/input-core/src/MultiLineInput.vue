@@ -19,7 +19,7 @@
 <script>
 export default {
   name: "MultiLineInput",
-  props: { label: String, size: String, placeholder: String, description: String },
+  props: { label: String, size: String, placeholder: String, description: String, value: String },
   computed: {
     localValue: {
       get() {

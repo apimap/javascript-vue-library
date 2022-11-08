@@ -63,7 +63,6 @@ export default {
 
 .description {
   margin-top: 0.4em;
-  font-size: 0.8em;
   white-space: pre-wrap;
   word-wrap: break-word;
   font-family: inherit;
@@ -79,7 +78,6 @@ export default {
   padding-left: 50px;
   margin-top: 40px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

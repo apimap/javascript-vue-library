@@ -1,6 +1,11 @@
 Changelog
 ===
 
+### 08.11.2022
+- Fixed left margin alignment
+- Fixed two-way binding of v-model values 
+- Updated build env node version
+
 ### 10.10.2022
 - Fixed left margin alignment
 
